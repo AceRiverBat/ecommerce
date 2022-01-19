@@ -1,0 +1,44 @@
+body{
+    background-image: url(img/fond.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+h2{
+    margin-left: 0.5em;
+}
+
+.panel2{
+    background-color: white;
+    padding: 1em;
+}
+.fix {
+    position: fixed;
+    top: 1;
+    right: 0;
+    left: 50;
+    z-index: 1030;
+  }
+span.prix {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    display:block;
+  }
+  
+  .img-responsive {
+    margin-bottom: 10px;
+  }
+  .row > * {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-top: var(--bs-gutter-y);
+    display: flex;
+    justify-content: space-around;
+  }
+  .card {
+    word-wrap: break-word;
+    margin: 1em;
+    padding: 1em;
+  }
